@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url("//iconfont.eot");
+  src: url("//iconfont.eot?#iefix") format("embedded-opentype"), url("//iconfont.woff") format("woff"), url("//iconfont.ttf") format("truetype"), url("//iconfont.svg#iconfont") format("svg"); }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+html, html body {
+  height: 100%;
+  width: 100%; }
+  html body {
+    margin: 0; }
+    html body header {
+      position: relative;
+      height: 1.6rem;
+      background: #148ad2; }
+      html body header span {
+        font-size: 0.72rem;
+        color: #fff; }
+      html body header div {
+        position: absolute;
+        left: 45%;
+        display: -webkit-inline-box;
+        line-height: 1.6rem;
+        height: 100%;
+        text-align: center;
+        font-size: 0.72rem;
+        color: #ffffff; }
+    html body section div {
+      padding: 0.8ren; }
+
+/*# sourceMappingURL=settin.css.map */

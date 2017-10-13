@@ -1,0 +1,49 @@
+$sc:25;
+@font-face {
+  font-family: 'iconfont';
+  src: url('//iconfont.eot');
+  src: url('//iconfont.eot?#iefix') format('embedded-opentype'),
+  url('//iconfont.woff') format('woff'),
+  url('//iconfont.ttf') format('truetype'),
+  url('//iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+  body{
+    @extend html;
+    margin: 0;
+    header{
+      position: relative;
+      height: 40/$sc+rem;
+      background: rgb(20,138,210);
+      span{
+        font-size: 18/$sc+rem;
+        color: #fff;
+      }
+      div{
+        position: absolute;
+        left: 45%;
+        display: -webkit-inline-box;
+        line-height:  40/$sc+rem;
+        height: 100%;
+        text-align: center;
+        font-size: 18/$sc+rem;
+        color: #ffffff;
+      }
+    }
+    section{
+     div{
+       padding:20/$sc+ren;
+     }
+    }
+  }
+}
